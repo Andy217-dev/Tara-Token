@@ -66218,7 +66218,7 @@
               abi: ry,
               functionName: "claimRewards",
               onError(e) {
-                k(!1), console.error("Error during lizaReward:", e);
+                k(!1), console.error("Error during TaraReward:", e);
               },
               onSuccess(e) {
                 I(null === e || void 0 === e ? void 0 : e.hash), k(!1);
@@ -66230,7 +66230,7 @@
                   k(!0),
                   await (null === Z || void 0 === Z ? void 0 : Z.write());
               } catch (e) {
-                k(!1), console.error("Error during lizaReward:", e);
+                k(!1), console.error("Error during TaraReward:", e);
               }
             },
             { data: H } = _c({
@@ -66572,7 +66572,7 @@
                                       (0, jf.jsx)(vv, {
                                         disabled: !(ie > 0),
                                         onClick: () => q(),
-                                        children: "Claim $LIZA Rewards",
+                                        children: "Claim $TARA Rewards",
                                       }),
                                       (0, jf.jsx)(vv, {
                                         disabled: !g,
@@ -66877,7 +66877,7 @@
                                 p: "0 0 20px",
                                 fs: "16px",
                                 children:
-                                  "Unlock the power of staking and experience the magic of compounding with $LIZA",
+                                  "Unlock the power of staking and experience the magic of compounding with $TARA",
                               }),
                               (0, jf.jsxs)(lm, {
                                 container: !0,
