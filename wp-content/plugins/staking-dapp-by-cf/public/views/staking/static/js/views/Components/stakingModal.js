@@ -347,7 +347,7 @@ const StakingModal = ({buttonTitle, children, defaultSelectedValue }) => {
 
                     </Spliterr>
                     <Spliterr>
-                        <P> You are staking {truncateDecimal(inputValue)} Tara token.</P>
+                        <P> You are staking {truncateDecimal(inputValue)} TaraAI.</P>
                         {isLoading ? <Loader />
                             :
                             <StakeButton disabled={inputValue > 0 ? false : true} MaxWidth="150px" onClick={handleStake} inputValue={inputValue} >Stake {truncateDecimal(inputValue)} Tara</StakeButton>}

@@ -64888,7 +64888,7 @@
                     (0, jf.jsxs)(jv, {
                       children: [
                         (0, jf.jsxs)(Ov, {
-                          children: [" You are staking ", O(h), " Tara token."],
+                          children: [" You are staking ", O(h), " TaraAI."],
                         }),
                         g
                           ? (0, jf.jsx)(jb, {})
@@ -67066,7 +67066,7 @@
           chains: $P,
           projectId: QP,
           metadata: {
-            name: "Tara Token",
+            name: "TaraAI",
             description: "Tara Staking",
             url: "https://web3modal.com",
             icons: ["https://avatars.githubusercontent.com/u/37784886"],
